@@ -6,5 +6,5 @@ Crie um programa que:
 3. Peça ao usuário para digitar um número nesse mesmo intervalo
 4. Verifique se o usuário acertou:
    - Se acertou: exiba "Parabéns! Você acertou!"
-   - Se errou: exiba qual foi o número sorteado
+   - Se errou: exiba "Você errou."
 """

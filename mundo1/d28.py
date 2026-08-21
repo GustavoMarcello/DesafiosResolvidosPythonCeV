@@ -8,3 +8,13 @@ Crie um programa que:
    - Se acertou: exiba "Parabéns! Você acertou!"
    - Se errou: exiba "Você errou."
 """
+
+from random import randint
+
+n = int(input('Digite um número entre 0 e 5: '))
+sorteado = randint(0, 5)
+print(f'Número sorteado "{sorteado}"')
+if sorteado == n:
+    print('Parabéns! Você acertou!')
+else:
+    print('Você errou.')

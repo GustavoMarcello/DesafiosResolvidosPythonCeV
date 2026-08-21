@@ -6,3 +6,10 @@ Crie um programa que:
 3. Verifique se os primeiros 5 caracteres são 'SANTO'
 4. Exiba True ou False
 """
+
+cidade = str(input('Digite o nome de uma cidade: '))
+upperCidade = cidade.upper()
+splitCidade = upperCidade.split()
+
+print(f'Nome da cidade digitado: {upperCidade}')
+print(f'Cidade digitada começa com "SANTO"? {'SANTO' in splitCidade[0]}')

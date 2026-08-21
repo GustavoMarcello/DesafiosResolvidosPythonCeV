@@ -8,3 +8,17 @@ Crie um programa que:
    - Isósceles: dois lados iguais
    - Escaleno: todos os lados diferentes
 """
+
+a = float(input('Digite o primeiro lado do triângulo: '))
+b = float(input('Digite o segundo lado do triângulo: '))
+c = float(input('Digite o terceiro lado do triângulo: '))
+
+if a < (b + c) and b < (a + c) and c < (a + b):
+   if a == b and b == c:
+      print('É um triângulo EQUILÁTERO')
+   elif a != b and a != c and b != c:
+      print('É um triângulo ESCALENO')
+   else:
+      print('É um triângulo ISOSSELES')
+else:
+    print('Não é um triângulo')

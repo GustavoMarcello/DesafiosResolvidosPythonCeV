@@ -7,3 +7,10 @@ Crie um programa que:
    - Se for maior que 200 km: R$ 0.45 por km
 3. Calcule e exiba o preço total da passagem
 """
+
+distTotal = float(input('Digite a distância total da viagem em km: '))
+
+if distTotal <= 200:
+    print(f'Valor total da passagem: R$ {distTotal*0.5}')
+else:
+    print(f'Valor total da passagem: R$ {distTotal*0.45}')

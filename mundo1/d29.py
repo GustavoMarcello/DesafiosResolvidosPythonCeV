@@ -9,3 +9,11 @@ Crie um programa que:
 3. Se for igual ou menor que 80 km/h:
    - Exiba "Tenha um bom dia! Dirija com segurança!"
 """
+
+velocidade = float(input('Digite a velocidade do carro: '))
+
+if velocidade > 80:
+    multa = (velocidade - 80) * 7
+    print(f'Você foi multado em {multa} reais')
+else:
+    print('Tenha um bom dia! Dirija com segurança!')

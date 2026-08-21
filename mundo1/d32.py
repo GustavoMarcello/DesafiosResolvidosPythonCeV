@@ -9,3 +9,10 @@ Crie um programa que:
    - Caso contrário: NÃO é bissexto
 3. Exiba se o ano é bissexto ou não
 """
+
+ano = int(input('Digite um ano: '))
+
+if ano % 400 == 0 or (ano % 4 == 0 and ano % 100 != 0):
+    print(f'{ano} é bissexto!')
+else:    
+    print(f'{ano} NÃO é bissexto!')

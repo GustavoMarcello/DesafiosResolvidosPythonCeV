@@ -7,3 +7,10 @@ Crie um programa que:
 4. Encontre a posição da última letra 'A'
 5. Exiba todos os resultados
 """
+
+frase = input('Digite uma frase qualquer: ')
+
+upperFrase = frase.upper()
+print(f'Sua frase contem {upperFrase.count('A')}  letras "A"')
+print(f'A primeira letra "A" aparece na posição: {upperFrase.find('A')+1}')
+print(f'A última letra "A" aparece na posição: {upperFrase.rfind('A')+1}')

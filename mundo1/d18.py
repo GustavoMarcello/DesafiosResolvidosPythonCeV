@@ -9,3 +9,13 @@ Crie um programa que:
 
 obs*: converta o ângulo para radiandos
 """
+
+import math
+
+angulo = float(input('Digite um valor de ângulo: '))
+
+rad = math.radians(angulo)
+
+print(f'sen de {angulo}: {math.sin(rad):.2f}')
+print(f'cos de {angulo}: {math.cos(rad):.2f}')
+print(f'tan de {angulo}: {math.tan(rad):.2f}')

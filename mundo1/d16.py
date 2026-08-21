@@ -6,3 +6,8 @@ Crie um programa que:
 3. Use a função math.trunc() para obter a parte inteira
 4. Exiba o número digitado e sua porção inteira
 """
+
+import math
+
+n = float(input('Digite um número decimal: '))
+print(f'A parte inteira digitada é de {math.trunc(n)}')

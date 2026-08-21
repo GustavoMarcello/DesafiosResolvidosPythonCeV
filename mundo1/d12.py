@@ -5,3 +5,6 @@ Crie um programa que:
 2. Calcule o preço com desconto de 5%
 3. Exiba o preço original e o preço com desconto em reais
 """
+
+preco = float(input('Digite o valor em reais do produto: '))
+print(f'5% de desconto para R${preco:.2f}: R${(preco*0.95):.2f}')

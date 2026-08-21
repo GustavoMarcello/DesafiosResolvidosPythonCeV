@@ -11,3 +11,13 @@ Crie um programa que:
 4. Se ainda não estiver na hora, informe quantos anos faltam para o alistamento.
 5. Se já passou da hora, informe quantos anos se passaram desde o alistamento
 """
+
+idade = int(input('Digite sua idade: '))
+
+if idade < 18:
+    print(f'Ainda faltam {18-idade} anos para seu alistamento')
+elif idade > 18:
+    print(f'Já passaram {idade-18} anos desde seu alistamento')
+else:
+    print('Você está na idade do alistamento')
+    

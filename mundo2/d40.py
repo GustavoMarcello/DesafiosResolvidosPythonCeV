@@ -9,3 +9,16 @@ Crie um programa que:
     - Recuperação (5 <= média < 7)
     - Reprovado (média < 5)
 """
+
+n1 = float(input('Digite a primeira nota: '))
+n2 = float(input('Digite a segunda nota: '))
+n3 = float(input('Digite a terceira nota: '))
+
+media = (n1+n2+n3) / 3
+
+if media >=7:
+    print(f'Sua média: {media:.2f} Aprovado')
+elif media < 5:
+    print(f'Sua média: {media:.2f} Reprovado')
+else:
+    print(f'Sua média: {media:.2f} Recuperação')

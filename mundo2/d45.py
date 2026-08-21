@@ -10,3 +10,28 @@ Crie um programa que:
    - Pedra vence Tesoura
 5. Exiba a escolha do usuário, do computador e declara o vencedor
 """
+from random import choice
+
+opcoes = ['PEDRA', 'PAPEL', 'TESOURA']
+
+print('Vamos jogar PEDRA, PAPEL, TESOURA')
+escolha = str(input('Digite sua escolha: ')).upper()
+
+rival = choice(opcoes)
+
+if escolha == rival:
+    print(f'Você \033[30m{escolha}\033[m X \033[30m{rival}\033[m Rival - EMPATE')
+elif escolha == 'PEDRA' and rival == 'PAPEL':
+    print(f'Você \033[33m{escolha}\033[m X \033[34m{rival}\033[m Rival - VOCÊ PERDEU')
+elif escolha == 'PEDRA' and rival == 'TESOURA':
+    print(f'Você \033[33m{escolha}\033[m X \033[35m{rival}\033[m Rival - VOCÊ GANHOU')
+elif escolha == 'PAPEL' and rival == 'PEDRA':
+    print(f'Você \033[34m{escolha}\033[m X \033[33m{rival}\033[m Rival - VOCÊ GANHOU')
+elif escolha == 'PAPEL' and rival == 'TESOURA':
+    print(f'Você \033[34m{escolha}\033[m X \033[35m{rival}\033[m Rival - VOCÊ PERDEU')
+elif escolha == 'TESOURA' and rival == 'PEDRA':
+    print(f'Você \033[35m{escolha}\033[m X \033[33m{rival}\033[m Rival - VOCÊ PERDEU')
+elif escolha == 'TESOURA' and rival == 'PAPEL':
+    print(f'Você \035[33m{escolha}\033[m X \033[34m{rival}\033[m Rival - VOCÊ GANHOU')
+else:
+    print('Escolha digitada inválida')

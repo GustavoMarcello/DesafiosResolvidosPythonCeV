@@ -10,3 +10,17 @@ Crie um programa que:
    - IMC >= 30: Obesidade
 4. Exiba o IMC e a classificação
 """
+
+peso = float(input('Digite seu peso: '))
+altura = float(input('Digite sua altura'))
+
+imc = peso / (altura ** 2)
+
+if imc < 18.5:
+    print(f'IMC: {imc} ABAIXO DO PESO')
+elif imc >= 18.5 and imc < 25:
+    print(f'IMC: {imc} PESO NORMAL')
+elif imc >= 25 and imc < 30:
+    print(f'IMC: {imc} SOBREPESO')
+else:
+    print(f'IMC: {imc} OBESIDADE')

@@ -8,3 +8,9 @@ Crie um programa que:
    - Hexadecimal (base 16)
 3. Exiba o número original e suas representações em cada base
 """
+
+n = int(input('Digite um Número: '))
+
+print(f'Converter {n} para BINARIO: {bin(n)}')
+print(f'Converter {n} para OCTAL: {oct(n)}')
+print(f'Converter {n} para HEXADECIMAL: {hex(n)}')

@@ -7,3 +7,15 @@ Crie um programa que:
 4. Compare a frase com sua versão invertida
 5. Exiba se é um palíndromo ou não
 """
+
+frase = str(input('Digite uma frase: ')).strip().upper()
+fraseFormatada = frase.replace(' ', '')
+fraseInvertida = ''
+
+for i in range(len(fraseFormatada)-1, -1, -1):
+    fraseInvertida += fraseFormatada[i]
+
+if fraseInvertida == fraseFormatada:
+    print(f'{frase} é um PALINDROMO')
+else:
+    print(f'NÃO é um PALINDROMO')

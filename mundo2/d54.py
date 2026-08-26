@@ -6,3 +6,18 @@ Crie um programa que:
     -  Quantas são maiores de idade,
     -  Quantas são menores de idade,
 """
+
+qdtPessoas = 7
+anoAtual = 2026
+maiores = []
+menores = []
+
+for i in range(1, qdtPessoas+1):
+    anoNascimento = int(input(f'Digite o ano de nascimento da pessoa {i}: '))
+    if anoAtual - anoNascimento > 17:
+        maiores.append(anoNascimento)
+    else:
+        menores.append(anoNascimento)
+
+print(f'Anos maiores de idade: {maiores}')
+print(f'Anos menores de idade: {menores}')

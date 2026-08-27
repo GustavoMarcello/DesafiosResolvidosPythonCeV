@@ -9,3 +9,19 @@ Crie um programa que:
    - Se errou: solicite um novo valor
 5. Ao Final demonstre quantos palpites foram necessários para o acerto
 """
+
+from random import randint
+
+sorteado = randint(1, 10)
+escolha = 0
+tentativas =0
+
+while escolha != sorteado:
+   tentativas += 1
+   valor = int(input('Digite um valor entre 1 e 10: '))
+   if valor != sorteado:
+      print(f'Você errou, tente novamente')
+   else:
+      escolha = valor
+      print(f'Correto em {tentativas} tentativas, o valor sorteado foi {sorteado}')
+   

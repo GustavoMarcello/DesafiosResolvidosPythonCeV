@@ -8,8 +8,9 @@ Crie um programa que:
 
 primTermo = int(input('Digite o primeiro termo da PA: '))
 razao = int(input('Digite a razão da PA: '))
+resultado = f'{primTermo}'
 
-print(primTermo)
 for  i in range(1, 10):
     primTermo += razao
-    print(primTermo)
+    resultado += f', {primTermo}'
+print(resultado)

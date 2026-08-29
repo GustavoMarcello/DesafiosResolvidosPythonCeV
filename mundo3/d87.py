@@ -8,3 +8,32 @@ Crie um programa que:
     b) A soma dos valores da terceira coluna
     c) O maior valor da segunda linha
 """
+
+matriz = [[0,0,0],[0,0,0],[0,0,0]]
+somaPares = 0
+somaColunaTres = 0
+somaLinhaDois = 0
+
+for linha in range(0, 3):
+    for coluna in range(0, 3):
+        n = int(input(f'Digite o valor [{linha}, {coluna}]: '))
+        matriz[linha][coluna] = n
+
+        if n % 2 == 0:
+            somaPares += n
+
+for linha in range(0, 3):
+    for coluna in range(0, 3):
+        print(f'[{matriz[linha][coluna]}]', end=' ')
+
+        if linha == 1:
+            somaLinhaDois += matriz[linha][coluna]
+
+        if coluna == 2:
+            somaColunaTres += matriz[linha][coluna]
+
+    print()
+
+print(f'Soma valores pares: {somaPares}')
+print(f'Soma coluna três: {somaColunaTres}')
+print(f'Soma linha dois: {somaLinhaDois}')

@@ -5,3 +5,15 @@ Crie um programa que:
 2. Retorne o manual de ajuda do item solicitado
 3. O programa deverá continuar rodando até que o usuário digite a palavra "FIM"
 """
+
+def ajuda(comando):
+    help(comando)
+
+
+while True:
+    comando = input('Digite o comando ou biblioteca (FIM para sair): ')
+
+    if comando.upper() == 'FIM':
+        break
+
+    ajuda(comando)

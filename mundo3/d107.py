@@ -9,3 +9,14 @@ Crie um programa que:
     - metade()
 3. Faça um programa que importe esse módulo e use essas funções
 """
+
+import moeda
+
+valor = 12
+
+preco = float(input('Digite um preço: '))
+
+print(f'O valor de {preco} + {valor} = {moeda.aumentar(preco, valor)}')
+print(f'O valor de {preco} - {valor} = {moeda.diminuir(preco, valor)}')
+print(f'O dobro de {preco} = {moeda.dobro(preco)}')
+print(f'A medade de {preco} = {moeda.metade(preco)}')

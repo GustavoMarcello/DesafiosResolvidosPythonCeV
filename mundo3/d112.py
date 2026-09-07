@@ -6,3 +6,10 @@ Crie um programa que:
     - Crie a função leiaDinheiro() que seja capaz de funcionar como a função input(),
     - Valide para aceitar apenas valores monetários
 """
+
+from utilidadesCeV import dado, moeda
+
+valor = 12
+
+p = dado.leiaDinheiro('Digite um preço: ')
+moeda.resumo(p, valor)

@@ -10,7 +10,7 @@ Crie um programa que:
 3. Faça um programa que importe esse módulo e use essas funções
 """
 
-import moeda
+from utilidadesCeV import moeda
 
 valor = 12
 

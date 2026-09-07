@@ -5,7 +5,7 @@ Crie um programa que:
 2. Essa função deverá formatar valores monetários em R$ com dois digitos após a vírgula
 """
 
-import moeda
+from utilidadesCeV import moeda
 
 valor = 12
 

@@ -4,3 +4,8 @@ EXERCÍCIO D113 - Funções aprofundadas em Python
 2. inclua a possibilidade de digitar um número de tipo inválido,
 3. Crie a função leiaFloat() da mesma forma,
 """
+
+from utilidadesCeV import dado
+
+dado.leiaInt()
+dado.leiaFloat()

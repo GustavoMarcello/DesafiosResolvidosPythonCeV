@@ -5,11 +5,13 @@ def aumentar(preco, valor, formatar=False):
         conta = moeda(conta)
     return conta
 
+
 def diminuir(preco, valor, formatar=False):
     conta = preco - valor
     if formatar:
         conta = moeda(conta)
     return conta
+
 
 def dobro(preco, formatar=False):
     conta = preco * 2
@@ -17,14 +19,17 @@ def dobro(preco, formatar=False):
         conta = moeda(conta)
     return conta
 
+
 def metade(preco, formatar=False):
     conta = preco / 2
     if formatar:
         conta = moeda(conta)
     return conta
 
+
 def moeda(preco=float):
     return f'R$ {preco:.2f}'
+
 
 def resumo(preco, valor):
     print(f'O valor de {preco} + {valor} = {aumentar(preco, valor, True)}')

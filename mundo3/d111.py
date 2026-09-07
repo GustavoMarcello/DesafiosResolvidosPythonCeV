@@ -8,7 +8,5 @@ No módulo moeda.py, teremos as funções que já conhecemos:
     - diminuir()
     - dobro()
     - metade()
-No módulo dado.py, terremos a função:
-    - sorteio()
-    - escolha()
+No módulo dado.py, ainda não teremos a função:
 """

@@ -1,7 +1,7 @@
 """
 EXERCÍCIO D18 - Classe Churrasco
 Crie um programa que:
-1. Contenha a classe Churrasco contendo atributo:
+1. Contenha a classe Churrasco contendo parâmetro:
     - qtdPessoas
 2. Crie o método para calcular:
     - Quantos Kg de carne devem ser comprados

@@ -7,6 +7,27 @@ Crie um programa que:
     - jogosFavoritos
 2. Crie os métodos:
     - addFavorito() para adicionar um jogo na lista de favoritos
-    - removerFavorito() para remover um jogo na lista de favoritos
-    - ficha() que demonstra todos os atributos com jogos em ordem alfabética
+    - fichaGamer() que demonstra todos os atributos com jogos em ordem alfabética
 """
+
+class Gamer:
+    def __init__(self, nomeUsuario=str, nickGamer=str, jogosFavoritos=list):
+        self.nomeUsuario = nomeUsuario
+        self.nickGamer = nickGamer
+        self.jogosFavoritos = jogosFavoritos
+
+    def fichaGamer(self):
+        print(f'\nNome: {self.nomeUsuario} Nick: {self.nickGamer}')
+        print(f'Jogos favoritos')
+        for i, j in enumerate(self.jogosFavoritos):
+            print(f'{i+1} - {j}')
+
+    def addFavorito(self, nomeFavorito=str):
+        self.jogosFavoritos.append(nomeFavorito)
+        print('Jogo adicionado com sucesso')
+        
+
+gustavo = Gamer('Gustavo', 'gugamarcello', ['Overwatch', 'Dont Starve', 'Elden Ring', 'Cuphead'])
+gustavo.fichaGamer()
+gustavo.addFavorito('The Witcher')
+gustavo.fichaGamer()

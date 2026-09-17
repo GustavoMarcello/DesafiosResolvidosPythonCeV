@@ -25,6 +25,7 @@ class Personagem(ABC):
         self.golpes = golpes
         self.equipamentos = equipamentos
 
+
     def rolarD20(self):
         return randint(1, 20)
 

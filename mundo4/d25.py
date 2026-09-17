@@ -39,7 +39,7 @@ class Moto(Transporte):
         self.valorFrete = self.distancia * self.fator
         print(f'Valor do frete de Moto: R$ {self.valorFrete}')
 
-
+    
 class Caminhao(Transporte):
     def __init__(self, distancia):
         super().__init__(distancia)

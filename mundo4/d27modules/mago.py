@@ -4,19 +4,22 @@ class Mago(Personagem):
     def __init__(self, nome=str, vida=int, golpes=list):
         super().__init__(nome, vida, golpes)
 
-    def fireball(self):
+    def fireball(self, inimigo):
         rolagemD12 = self.rolarD12()
         dano = 6 + rolagemD12
-        vidaRestante = self.receberDano(dano)
-        return vidaRestante
+        print(f'Dano fireball: {dano}')
+        vidaRestante = inimigo.receberDano(dano)
+        print(f'Vida restante {inimigo.nome}: {vidaRestante}')
 
-    def magicMissles(self):
+    def magicMissles(self, inimigo):
         dano = 0
 
         for i in range(1, 4):
             d6 = self.rolarD6()
-            print(f'Dado {i}: {d6}\n')
+            print(f'Missle {i}: {d6}')
             dano += d6
 
-        vidaRestante = self.receberDano(dano)
-        return vidaRestante
+        print(f'Dano total: {dano}')
+
+        vidaRestante = inimigo.receberDano(dano)
+        print(f'Vida restante {inimigo.nome}: {vidaRestante}')

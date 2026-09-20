@@ -18,18 +18,16 @@ class Personagem(ABC):
 
     def rolarD12(self):
         resultado = randint(1, 12)
-        print(f'Resultado D12: {resultado}')
         return resultado
 
     def rolarD6(self):
         resultado = randint(1, 6)
-        print(f'Resultado D6: {resultado}')
         return resultado
 
-    def atacar(self):
-        print('Escolha o ataque:\n')
+    def escolherAtaque(self):
+        print('Escolha o ataque:')
         for i, ataque in enumerate(self.golpes):
-            print(f'{i} - {ataque}\n')
+            print(f'  {i+1} - {ataque}')
 
     def receberDano(self, valor):
         self._vida -= valor

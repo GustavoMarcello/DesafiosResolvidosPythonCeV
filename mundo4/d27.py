@@ -7,12 +7,12 @@ Crie um programa que:
     - nome
     - vida
     - golpes
-    - atacar(alvo, forca)
+    - escolherAtaque() - retorna lista de opções de ataque
     - receberDano(dano)
-    - curar()
+    - usarPocao()
 2. Crie classes filhas:
-    - Guerreiro 
-    - Mago
+    - Guerreiro - ['Atacar com arma', 'Arremeçar adaga']
+    - Mago - ataques ['Magic missles', 'fireball']
 """
 
 from d27modules.mago import Mago
@@ -21,5 +21,8 @@ from d27modules.guerreiro import Guerreiro
 jaina = Mago('Jaina Proudmore', 35, ['Magic missles', 'fireball'])
 garrosh = Guerreiro('Garrosh Grito Infernal', 48, ['Atacar com arma', 'Arremeçar adaga'])
 
-print(jaina.__dict__)
-print(garrosh.__dict__)
+print(garrosh)
+print(f'Vida Jaina: {jaina.vida}')
+print(f'Vida Garrosh: {garrosh.vida}')
+jaina.magicMissles(garrosh)
+

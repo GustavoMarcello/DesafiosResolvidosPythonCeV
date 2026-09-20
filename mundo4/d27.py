@@ -21,8 +21,15 @@ from d27modules.guerreiro import Guerreiro
 jaina = Mago('Jaina Proudmore', 35, ['Magic missles', 'fireball'])
 garrosh = Guerreiro('Garrosh Grito Infernal', 48, ['Atacar com arma', 'Arremeçar adaga'])
 
-print(garrosh)
 print(f'Vida Jaina: {jaina.vida}')
 print(f'Vida Garrosh: {garrosh.vida}')
-jaina.magicMissles(garrosh)
+# jaina.fireball(garrosh)
+garrosh.ataqueComArma(jaina)
+jaina.usarPocao()
+jaina.usarPocao()
+jaina.usarPocao()
+# garrosh.ataqueComArma(jaina)
+# jaina.fireball(garrosh)
+# garrosh.ataqueComArma(jaina)
+
 

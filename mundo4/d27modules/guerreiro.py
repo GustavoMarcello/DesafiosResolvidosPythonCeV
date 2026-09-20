@@ -5,24 +5,26 @@ class Guerreiro(Personagem):
         super().__init__(nome, vida, golpes)
 
     def ataqueComArma(self, inimigo):
-        rolagemD12 = self.rolarD12()
-        dano = 2 + rolagemD12
-        print(f'Dano araque com arma: {dano}')
-        vidaRestante = inimigo.receberDano(dano)
+        if self._verificaVida(inimigo):
+            rolagemD12 = self.rolarD12()
+            dano = 2 + rolagemD12
+            print(f'Dano araque com arma: {dano}')
+            vidaRestante = inimigo._receberDano(dano)
 
-        print(f'Vida restante {inimigo.nome}: {vidaRestante}')
+            print(f'Vida restante {inimigo.nome}: {vidaRestante}')
 
     def arremecarAdagas(self, inimigo):
-        danoBase = 3
-        dano = danoBase
+        if self._verificaVida(inimigo):
+            danoBase = 3
+            dano = danoBase
 
-        for i in range(1, 3):
-            d6 = self.rolarD6()
-            print(f'Adaga {i}: {d6}')
-            dano += d6
+            for i in range(1, 3):
+                d6 = self.rolarD6()
+                print(f'Adaga {i}: {d6}')
+                dano += d6
 
-        print(f'Dano base: {danoBase}')
-        print(f'Dano total: {dano}')
-        vidaRestante = inimigo.receberDano(dano)
+            print(f'Dano base: {danoBase}')
+            print(f'Dano total: {dano}')
+            vidaRestante = inimigo._receberDano(dano)
 
-        print(f'Vida restante {inimigo.nome}: {vidaRestante}')
+            print(f'Vida restante {inimigo.nome}: {vidaRestante}')

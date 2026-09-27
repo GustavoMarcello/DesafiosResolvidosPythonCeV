@@ -1,7 +1,7 @@
 # Declaração da Classe
 class ContaBancaria:
     # Metodo Construtor 
-    def __init__(self, id=int, nomeTitular=str, saldo=0): 
+    def __init__(self, id:int, nomeTitular:str, saldo:0): 
         # Atributos
         self.id = id
         self.nomeTitular = nomeTitular

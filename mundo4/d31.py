@@ -18,7 +18,7 @@ Obs* valide as propriedades para que não sejam aceitos valores negativos ou zer
 """
 
 class Retangulo:
-    def __init__(self, base, altura):
+    def __init__(self, base:float, altura:float):
         self._base = base
         self._altura = altura
         self._area = self._base * self._altura

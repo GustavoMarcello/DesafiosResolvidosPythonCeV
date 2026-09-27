@@ -21,7 +21,7 @@ Crie um programa que:
 from abc import ABC, abstractmethod
 
 class Transporte(ABC):
-    def __init__(self, distancia=float):
+    def __init__(self, distancia:float):
         self.distancia = distancia
         self.valorFrete = 0
 

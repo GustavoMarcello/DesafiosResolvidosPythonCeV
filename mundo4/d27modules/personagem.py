@@ -2,7 +2,7 @@ from abc import ABC
 from random import randint
 
 class Personagem(ABC):
-    def __init__(self, nome=str, vida=int, golpes=list):
+    def __init__(self, nome:str, vida:int, golpes:list):
         self._nome = nome
         self._vida = vida
         self.golpes = golpes

@@ -12,7 +12,7 @@ Crie um programa que:
 from hashlib import sha256
 
 class Credencial():
-    def __init__(self, senha = '@MinhaSenha1'):
+    def __init__(self, senha:str = '@MinhaSenha1'):
         self.__hash = sha256(senha.encode('utf-8')).hexdigest()
 
     @property

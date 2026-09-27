@@ -19,7 +19,7 @@ Crie um programa que:
 """
 
 class Caneta:
-    def __init__(self, cor=str):
+    def __init__(self, cor:str):
         self.cor = cor.strip().upper()
 
     def escrever(self,msg=str):

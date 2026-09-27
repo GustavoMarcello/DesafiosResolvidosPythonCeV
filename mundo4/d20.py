@@ -13,7 +13,7 @@ Crie um programa que:
 """
 
 class Gamer:
-    def __init__(self, nomeUsuario=str, nickGamer=str, jogosFavoritos=list):
+    def __init__(self, nomeUsuario:str, nickGamer:str, jogosFavoritos:list):
         self.nomeUsuario = nomeUsuario
         self.nickGamer = nickGamer
         self.jogosFavoritos = jogosFavoritos

@@ -15,7 +15,7 @@ from abc import ABC, abstractmethod
 from math import pi
 
 class Poligono(ABC):
-    def __init__(self, qtdLados=int):
+    def __init__(self, qtdLados:int):
         super().__init__()
         self.qtdLados = qtdLados
 

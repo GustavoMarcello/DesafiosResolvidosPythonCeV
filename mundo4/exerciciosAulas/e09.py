@@ -1,7 +1,7 @@
 from abc import ABC
 
 class Avaliacao(ABC):
-    def __init__(self, nome=str, disciplina=str, nota=float):
+    def __init__(self, nome:str, disciplina:str, nota:float):
         self.nome = nome
         self.disciplina = disciplina
         self._nota = nota

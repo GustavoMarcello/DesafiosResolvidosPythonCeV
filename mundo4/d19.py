@@ -17,7 +17,7 @@ Crie um programa que:
 """
 
 class Livro:
-    def __init__(self, nomeLivro=str):
+    def __init__(self, nomeLivro:str):
         self.nomeLivro = nomeLivro.upper()
         self.totalPaginas = 50 
         self.paginaAtual = 1

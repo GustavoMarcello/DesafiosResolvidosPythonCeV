@@ -11,7 +11,7 @@ Crie um programa que:
 """
 
 class Funcionario:
-    def __init__(self, nomeFuncionario=str, cargo=str, setor=str):
+    def __init__(self, nomeFuncionario:str, cargo:str, setor:str):
         self.nomeFuncionario = nomeFuncionario
         self.cargo = cargo
         self.setor = setor

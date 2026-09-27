@@ -10,7 +10,7 @@ Crie um programa que:
 """
 
 class Produto:
-    def __init__(self, nomeProduto=str, precoProduto=float):
+    def __init__(self, nomeProduto:str, precoProduto:float):
         self.nomeProduto = nomeProduto
         self.precoProduto = precoProduto
 

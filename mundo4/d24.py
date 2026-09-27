@@ -20,7 +20,7 @@ from abc import ABC, abstractmethod
 from time import sleep
 
 class Bebidas(ABC):
-    def __init__(self, tamanho=str, quente=bool):
+    def __init__(self, tamanho:str, quente:bool):
         self.tamanho = tamanho
         self.quente = quente
         self.temperatura = 'frio'

@@ -1,7 +1,7 @@
 from .personagem import Personagem
 
 class Guerreiro(Personagem):
-    def __init__(self, nome=str, vida=int, golpes=list):
+    def __init__(self, nome:str, vida:int, golpes:list):
         super().__init__(nome, vida, golpes)
 
     def ataqueComArma(self, inimigo):

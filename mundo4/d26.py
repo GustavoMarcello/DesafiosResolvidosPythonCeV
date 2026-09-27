@@ -52,7 +52,7 @@ class Horista(Funcionario):
     
 
 class Mensalista(Funcionario):
-    def __init__(self, nome=str, salarioBruto=float):
+    def __init__(self, nome:str, salarioBruto:float):
         super().__init__(nome)
         self.salarioBruto = salarioBruto
 

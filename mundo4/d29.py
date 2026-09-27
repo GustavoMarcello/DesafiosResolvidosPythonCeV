@@ -11,7 +11,7 @@ Crie um programa que:
 """
 
 class Diario():
-    def __init__(self, senha = 'Minha Senha'):
+    def __init__(self, senha:str = 'Minha Senha'):
         self.__senha = senha
         self.__segredos = []
 

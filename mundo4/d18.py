@@ -15,7 +15,7 @@ Crie um programa que:
 """
 
 class Churrasco:
-    def __init__(self, qtdPessoas=int):
+    def __init__(self, qtdPessoas:int):
         self.qtdPessoas = qtdPessoas
         self.consumoPadrao = 0.4
         self.precoMedio = 82.4

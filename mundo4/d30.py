@@ -6,5 +6,34 @@ Crie um programa que:
 1. Contenha a classe abstrata Credencial contendo:
     - senha
     - __hash
-    - validar(chave)
+    - validarSenha(senha)
+    - alterarSenha(novaSenha)
 """
+from hashlib import sha256
+
+class Credencial():
+    def __init__(self, senha = '@MinhaSenha1'):
+        self.__hash = sha256(senha.encode('utf-8')).hexdigest()
+
+    @property
+    def senha(self):
+        return self.__hash
+
+    def validarSenha(self, senha):
+        hashSenha = sha256(senha.encode('utf-8')).hexdigest()
+        if hashSenha == self.__hash:
+            print('\033[32mSenha Validada!\033[m')
+        else:
+            print('\033[31mAs senhas não conferem!\033[m')
+
+    def alterarSenha(self, novaSenha=str):
+        if len(novaSenha) > 3:
+            self.__hash = sha256(novaSenha.encode('utf-8')).hexdigest()
+            print('\033[32mSenha Alterada com Sucesso!\033[m')
+        else:
+            print('\033[31mNova senha Inválida!\033[m')
+
+
+credencial = Credencial()
+credencial.alterarSenha('NovaSenha$2')
+credencial.validarSenha('NovaSenha$2')

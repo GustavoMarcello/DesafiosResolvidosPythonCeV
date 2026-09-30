@@ -1,6 +1,4 @@
-from abc import ABC
-
-class Avaliacao(ABC):
+class Avaliacao():
     def __init__(self, nome:str, disciplina:str, nota:float):
         self.nome = nome
         self.disciplina = disciplina

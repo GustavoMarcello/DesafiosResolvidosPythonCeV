@@ -1,5 +1,5 @@
 """
-# Video com os desafios:  CeV Python POO: Aula 09 https://www.youtube.com/watch?v=CTbdydT9nlQ&list=PLHz_AreHm4dn_RXXoa3Ameh77f95Hgwv3&index=27
+# Video com os desafios:  CeV Python POO: Aula 12 https://www.youtube.com/watch?v=CTbdydT9nlQ&list=PLHz_AreHm4dn_RXXoa3Ameh77f95Hgwv3&index=27
 
 EXERCÍCIO D31 - properties de retangulo
 Crie um programa que:

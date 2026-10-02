@@ -12,9 +12,9 @@ Soluções dos exercícios de Python do **Curso em Vídeo**, organizadas por eta
 
 ---
 
-## 📌 Sobre o projeto
+## 📌 Sobre o Projeto
 
-Este repositório reúne minhas resoluções para os desafios estudados durante a trilha de Python do **Curso em Vídeo**, do professor Gustavo Guanabara.
+Este repositório reúne minhas resoluções para os desafios estudados durante a trilha de Python do **[Curso em Vídeo](https://www.youtube.com/@cursoemvideo/featured)**, do professor **[Gustavo Guanabara](https://www.linkedin.com/in/guanabara)**.
 
 A proposta vai além de guardar respostas prontas: o repositório serve como histórico de evolução, material de revisão e espaço para experimentar diferentes formas de resolver o mesmo problema.
 
@@ -25,7 +25,7 @@ Os arquivos mantêm o enunciado no início do código, facilitando a leitura e o
 
 ---
 
-## 🗂️ Estrutura do repositório
+## 🗂️ Estrutura do Repositório
 
 ```text
 DesafiosResolvidosPythonCeV/
@@ -33,43 +33,41 @@ DesafiosResolvidosPythonCeV/
 ├── mundo2/
 ├── mundo3/
 ├── mundo4/
-├── mp3/
 └── README.md
 ```
 
 Cada pasta agrupa exercícios de uma etapa específica da trilha.
 
-| Pasta | Foco geral |
+| Pasta | Foco Geral |
 |---|---|
 | `mundo1` | Fundamentos da linguagem, entrada e saída, operadores e primeiros problemas |
 | `mundo2` | Estruturas condicionais e de repetição |
 | `mundo3` | Estruturas de dados, funções, módulos e tratamento de erros |
 | `mundo4` | Exercícios adicionais com Programação Orientada a Objetos |
-| `mp3` | Recursos de áudio utilizados por alguns exercícios |
 
 > A organização reflete a evolução do conteúdo estudado e pode incluir exercícios adicionais além da trilha original dos três mundos.
 
 ---
 
-## 🧠 Conteúdos praticados
+## 🧠 Conteúdos Praticados
 
 Ao longo dos exercícios são trabalhados conceitos como:
 
-- variáveis, tipos primitivos e operadores;
-- entrada e saída de dados;
-- manipulação de strings;
-- condicionais `if / elif / else`;
-- estruturas de repetição `for` e `while`;
-- listas, tuplas e dicionários;
-- funções, módulos e reutilização de código;
-- tratamento de exceções;
-- leitura e organização de dados;
-- classes, encapsulamento, herança, composição e dependência;
-- resolução de problemas e raciocínio algorítmico.
+- Variáveis, tipos primitivos e operadores;
+- Entrada e saída de dados;
+- Manipulação de strings;
+- Condicionais `if / elif / else`;
+- Estruturas de repetição `for` e `while`;
+- Listas, tuplas e dicionários;
+- Funções, módulos e reutilização de código;
+- Tratamento de exceções;
+- Leitura e organização de dados;
+- Classes, encapsulamento, herança, composição e dependência;
+- Resolução de problemas e raciocínio algorítmico.
 
 ---
 
-## ▶️ Como executar
+## ▶️ Como Executar
 
 Clone o repositório:
 
@@ -118,7 +116,7 @@ Isso facilita usar o próprio código como material de estudo e revisão.
 
 Este projeto registra minha evolução em Python desde os fundamentos até conceitos mais estruturados de desenvolvimento.
 
-Algumas soluções podem ser intencionalmente simples por representarem o conhecimento disponível no momento em que o exercício foi realizado — e isso faz parte da ideia do repositório: **mostrar evolução, não apenas o resultado final**.
+Algumas soluções podem ser intencionalmente simples por representarem o conhecimento disponível no momento em que o exercício foi realizado — e isso faz parte da ideia do repositório: **Mostrar evolução, não apenas o resultado final**.
 
 ---
 
@@ -130,7 +128,7 @@ Issues e pull requests são bem-vindos. Só vale lembrar que, por ser um reposit
 
 ---
 
-## 🔗 Projeto relacionado
+## 🔗 Projeto Relacionado
 
 📘 **Enunciados sem resolução:**  
 [github.com/GustavoMarcello/DesafiosPythonCeV](https://github.com/GustavoMarcello/DesafiosPythonCeV)
@@ -141,6 +139,9 @@ Issues e pull requests são bem-vindos. Só vale lembrar que, por ser um reposit
 
 Feito com ☕, curiosidade e algumas boas horas de `print()`.
 
-**[Gustavo Marcello](https://github.com/GustavoMarcello)**
+**[Gustavo Marcello](https://www.linkedin.com/in/gustavo-marcello)**
+
+<a href="https://github.com/GustavoMarcello"><img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white" alt="GitHub"></a>
+<a href="https://www.linkedin.com/in/gustavo-marcello"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 
 </div>

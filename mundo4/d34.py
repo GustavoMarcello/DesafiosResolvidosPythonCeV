@@ -16,7 +16,7 @@ Crie um programa que:
     - Desenvolvedor: 10% do salário
 4. Implemente um print com nome e salário ao criar o objeto.
 """
-from abc import ABC, abstractmethod
+from abc import ABC
 
 class Funcionario(ABC):
     def __init__(self, nome:str, salario:float, indice_bonus:float):

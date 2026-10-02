@@ -9,7 +9,7 @@ Crie um programa que:
     - pagar() - "Pagando valor de {fvalor} via {__class__.__name__}"
 2. Crie as classes Boleto, Credito e Pix que herdam de Pagamento
 """
-from abc import ABC, abstractmethod
+from abc import ABC
 
 class Pagamento(ABC):
     def __init__(self, valor:float):

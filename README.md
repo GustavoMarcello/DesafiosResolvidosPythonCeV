@@ -120,6 +120,15 @@ Algumas soluções podem ser intencionalmente simples por representarem o conhec
 
 ---
 
+## ▶️ Playlists do Curso
+
+- **Mundo 1:** [Curso de Python — Mundo 1](https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6)
+- **Mundo 2:** [Curso de Python — Mundo 2](https://www.youtube.com/watch?v=nJkVHusJp6E&list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye)
+- **Mundo 3:** [Curso de Python — Mundo 3](https://www.youtube.com/watch?v=0LB3FSfjvao&list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH)
+- **Mundo 4:** [Curso de Python — Mundo 4](https://www.youtube.com/watch?v=Mim6nnkdOto&list=PLHz_AreHm4dn_RXXoa3Ameh77f95Hgwv3)
+
+---
+
 ## 🤝 Contribuições
 
 Encontrou uma forma interessante de resolver algum exercício, uma melhoria de legibilidade ou algum detalhe que merece correção?
